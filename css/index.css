@@ -2,15 +2,16 @@ body
 {
   color: purple;
   text-align: center;
-  column1
+}
+  .column1
   {
     background-color: #9C6EE6;
   }
-  column2
+  .column2
   {
     background-color: black;
   }
-  column3
+  .column3
   {
     background-color: #9C6EE6;
   }

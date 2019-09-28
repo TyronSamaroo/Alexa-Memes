@@ -2,19 +2,20 @@ body
 {
   color: purple;
   text-align: center;
+  column1
+  {
+    background-color: #9C6EE6;
+  }
+  column2
+  {
+    background-color: black;
+  }
+  column3
+  {
+    background-color: #9C6EE6;
+  }
 }
-column1
-{
-  background-color: #9C6EE6;
-}
-column2
-{
-  background-color: black;
-}
-column3
-{
-  background-color: #9C6EE6;
-}
+
 h1
 {
   font-size: 50px;

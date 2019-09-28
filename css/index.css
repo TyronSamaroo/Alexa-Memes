@@ -2,4 +2,14 @@ body
 {
   background-color: black;
   color: purple;
+  text-align: center;
+}
+h1
+{
+  font-size: 50px;
+}
+
+p
+{
+  font-family: "Times New Roman"
 }

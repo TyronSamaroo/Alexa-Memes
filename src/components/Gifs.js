@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import GifsDescription from './GifsDescription';
 
-const API_KEY = "cbvNJCBnK7Y9Q4TKieXfTnZHta5lOfqT";
+const API_KEY = "###";
 
 class Gifs extends Component {
   constructor() {

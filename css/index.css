@@ -2,15 +2,17 @@ body
 {
   height: 100%;
   background-image: url("https://media.giphy.com/media/l2JBygxaUuh8aJ6YHn/giphy.gif");
-  color: White;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #f9f6f6;
+  font-family: times serif;
+  border-style: double;
+  border-width: thick;
 }
 
 .column1
 {
   width: 100%;
   height: 10px;
-  color: white
+  color: white;
 }
 .column2
 {
@@ -23,7 +25,6 @@ body
   width:60%;
   float: left;
   height: 20px;
-
 }
 .column4
 {

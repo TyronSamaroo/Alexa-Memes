@@ -17,7 +17,7 @@ class Gifs extends Component {
   }
 
   getGifs() {
-    fetch(`http://api.giphy.com/v1/gifs/search?q=spongebob&api_key=${API_KEY}&limit=5`).then(response => {
+    fetch(`http://api.giphy.com/v1/gifs/search?q=cats&api_key=${API_KEY}&limit=5`).then(response => {
       if (!response.ok) {
         throw new Error();
       }
@@ -34,15 +34,14 @@ class Gifs extends Component {
       this.state.gifs.map(entry =>
         <GifsDescription
           gif={entry.images.original.url}
-          // userImg={entry.user.avatar_url}
-          // userName={entry.user.username}
+          url={entry.url}
+          title={entry.title}
         />
       )
     )
   }
 
   render() {
-    console.log(this.state.gifs);
     return (
       <div>
         {this.renderGifEntries()}

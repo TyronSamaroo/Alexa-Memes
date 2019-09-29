@@ -6,12 +6,12 @@ class GifsDescription extends Component {
     return (
       <div className= "gifs">
         <div className="gifs-left">
-          <img className="responsive" src={this.props.gif} alt=""/>
+          <a href={this.props.url} target="_blank" rel="noopener noreferrer">
+            <img className="responsive" src={this.props.gif} alt=""/>
+          </a>
         </div>
         <div className="gifs-right">
-          <h4 className="gifs-right-header">Submitted by:</h4>
-          <img className="gifs-right-user" src="https://media3.giphy.com/avatars/spongebob/U4nimQFVGMqR.jpg" alt=""/>
-          <h4>spongebob</h4>
+          <h4 className="gifs-right-header">{this.props.title}</h4>
         </div>
       </div>
     );

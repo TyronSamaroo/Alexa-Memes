@@ -1,28 +1,20 @@
 body
 {
+  background-color: black;
   color: purple;
-  text-align: center;
-}
-  .column1
-  {
-    background-color: #9C6EE6;
-  }
-  .column2
-  {
-    background-color: black;
-  }
-  .column3
-  {
-    background-color: #9C6EE6;
-  }
 }
 
 h1
 {
   font-size: 50px;
+  text-align: center;
+}
+h2
+{
+  text-align: center;
 }
 
 p
 {
-  font-family: "Times New Roman"
+  font-family: "Times New Roman";
 }

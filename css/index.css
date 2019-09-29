@@ -1,5 +1,4 @@
-body
-{
+body {
   height: 100%;
   background-image: url("https://media.giphy.com/media/l2JBygxaUuh8aJ6YHn/giphy.gif");
   color: #f9f6f6;
@@ -8,87 +7,60 @@ body
   border-width: thick;
 }
 
-.column1
-{
-  width: 100%;
-  height: 10px;
-  color: white;
-}
-.column2
-{
-  width:20%;
-  float: left;
-  height: 1000px;
-}
-.column3
-{
-  width:60%;
-  float: left;
-  height: 20px;
-}
-.column4
-{
-  width:60%;
-  float: left;
-  height: 300px;
-  background-color: white;
-}
-.column5
-{
-  width:60%;
-  float: left;
-  height: 20px;
-
-}
-.column6
-{
-  width:60%;
-  float: left;
-  height: 300px;
-  background-color: white;
-}
-.column7
-{
-  width:60%;
-  float: left;
-  height: 20px;
-
-}
-.column8
-{
-  width:60%;
-  float: left;
-  height: 300px;
-  background-color: white;
-}
-.column9
-{
-  width:60%;
-  float: left;
-  height: 20px;
-
-}
-.column10
-{
-  width:60%;
-  float: left;
-  height: 20px;
-
-}
-
-
-
-h1
-{
+.header-text {
   font-size: 50px;
   text-align: center;
 }
-h2
-{
+
+.left-section {
+  width:20%;
+  height: 100%;
+  float: left;
+  height: 100em;
+}
+
+.center-section {
+  width: 60%;
+  float: left;
+}
+
+.right-section {
+  width: 20%;
+  float: left;
+}
+
+.gifs {
+  width:100%;
+  float: left;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.349);
+  border-radius: 2%;
+  margin-top: 20px;
   text-align: center;
 }
 
-p
-{
-  font-family: "Times New Roman";
+.responsive {
+  width: 100%;
+  height: auto;
+  max-height: 900px;
+}
+
+.gifs-left {
+  float: left;
+  width: 60%;
+}
+
+.gifs-right {
+  float: left;
+  width: 40%;
+  font-size: 21px;
+}
+
+.gifs-right-user {
+  width: 50%;
+  height: auto;
+}
+
+.gifs-right-header {
+  margin: 0 0 10px 0;
 }

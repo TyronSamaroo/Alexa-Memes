@@ -14,7 +14,7 @@ const client = require('twilio')(accountSid, authToken);
 function sendTwilioMsg(topMeme, thumbnail, subreddit) {
     client.messages
         .create({
-            body: '😎 Meme News 😎\n✰⋆Top post today on Reddit⋆✰\n"'+topMeme+'"\nSee more on www.DankMemesFromOuter.Space/'+subreddit,
+            body: '😎 Meme News 😎\n✰⋆Top post today on Reddit⋆✰\n"'+topMeme+'"\nSee more on http://dankmemesfromouterspace.herokuapp.com/',
             mediaUrl: [thumbnail],
             from: '+1##########',
             to: "+1##########"
